@@ -1,2 +1,5 @@
 rootProject.name = 'ForgeGradle'
-enableFeaturePreview('STABLE_PUBLISHING') //Make building shut up.
+include 'common'
+include 'mcp'
+include 'userdev'
+//enableFeaturePreview('STABLE_PUBLISHING') //Make building shut up.
